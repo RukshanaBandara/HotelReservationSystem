@@ -1,0 +1,247 @@
+
+
+
+
+
+
+/*dropbtn*/
+
+.dp {
+  background-color: #5a7081;
+  color: #ffffff;
+  border: none;
+  padding: 14px 36px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+
+/*dropdown nav*/
+
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropbtn {
+padding: 14px 16px;
+background-color: #5a7081;
+}
+
+.dropdown .dropbtn {
+  text-align: center;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 36px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #5a7081;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b8c4cf;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*dropnav*/
+.hero{
+  height: 160%;
+  width: 100%;
+  background-image:  linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.1)),url(rimj.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+
+
+
+h1 {
+	text-align: left; 
+	color:black;
+	font-size:40px;
+	text-align: left; 
+	font-size:20px;
+	background-color:#84CAF5;
+	width:300px;
+	padding:3px;
+	margin-left:30px;
+	border:5px brown solid;
+	border-radius:20px;
+	font-family: 'Oleo Script Swash Caps', cursive;	
+}
+
+.para{
+	text-align: left; 
+	color:black;
+	font-size:40px;
+	text-align: left; 
+	font-size:20px;
+	background-color:#84CAF5;
+	width:1080px;
+	padding:3px;
+	margin-left:300px;
+	border:5px brown solid;
+	border-radius:20px;
+	font-family: 'Oleo Script Swash Caps', cursive;	
+	
+	
+}
+
+
+
+	
+
+{
+margin: 0;
+padding: 0;
+background: #C9DDFF;
+font-family: sans-serif;
+}
+.top{
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 8rem;
+  color:#3772DE;
+  text-shadow: 0 0.1rem 0.2rem var(--primary-color);
+  font-family: Anime Ace;
+
+}
+
+.pdetails
+{
+margin: 5;
+padding: 5;
+text-align: center;
+font-family: sans-serif;
+}
+
+
+.container
+{ 
+  width: 1280px;
+  margin: 70px auto 0; 
+  display: flex;
+  flex direction: row;
+  flex-wrap:wrap; 
+}
+.container .box
+{
+   position:relative;
+   width: 300px;
+   height: 300px;
+   background: #84BDF0;
+   margin: 10px;
+   box-sizing: border-box;
+   display: inline-block;
+}
+.container .box .imgBox
+{
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgBox img
+{
+    max-width: 100%;
+    max-height: 200%;
+    transition: transform 2s;
+}
+.container .box:hover .imgBox img
+{
+ transform: scale(1.2);
+}
+.container .box .details
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+.container .box:hover .details
+{
+     transform: scaleY(1);
+}
+.container .box .details .content
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    padding:15px;
+    color:#B8C7D6;
+}            
+.container .box .details .content h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color:#38AAE8;
+}
+.container .box .details .content p
+{ 
+    margin: 10px 0 0;
+    padding: 0;
+}
+	
+			
+
+
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
